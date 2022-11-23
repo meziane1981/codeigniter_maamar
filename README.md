@@ -1,5 +1,30 @@
 # CodeIgniter 4 Application Starter
 
+## Instalation 
+* Versions de codeIgniter
+1. par la commande 
+```
+composer create-project codeigniter4/appstarter nom de projet
+
+```
+2. Installer toutes les dépendances composer du projet : 
+
+```
+composer install
+``` 
+## Définition du mode de développement
+1.Alors décommentez la ligne avec CI_ENVIRONMENTdessus, et changez productionen development:
+``` 
+CI_ENVIRONMENT = development
+
+```
+
+
+
+
+
+
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
@@ -62,21 +87,3 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
 
-## Instalation 
-* Versions de codeIgniter
-1. par la commande 
-```
-composer create-project codeigniter4/appstarter nom de projet
-
-```
-2. Installer toutes les dépendances composer du projet : 
-
-```
-composer install
-``` 
-## Définition du mode de développement
-1.Alors décommentez la ligne avec CI_ENVIRONMENTdessus, et changez productionen development:
-``` 
-CI_ENVIRONMENT = development
-
-```
