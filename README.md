@@ -70,9 +70,10 @@ composer create-project codeigniter4/appstarter nom de projet
 
 ```
 2. Installer toutes les dépendances composer du projet : 
+
 ```
 composer install
-
+``` 
 ## Définition du mode de développement
 1.Alors décommentez la ligne avec CI_ENVIRONMENTdessus, et changez productionen development:
 ``` 
