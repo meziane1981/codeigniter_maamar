@@ -15,7 +15,7 @@ composer install
 ## Définition du mode de développement
 1.Alors décommentez la ligne avec CI_ENVIRONMENTdessus, et changez productionen development:
 ``` 
-CI_ENVIRONMENT = development
+CI_ENVIRONMENT = developments
 
 ```
 
